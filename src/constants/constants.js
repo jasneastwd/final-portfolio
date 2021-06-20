@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'My-tinerary',
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+      "Using Firebase and Ionic React, I created an itinerary app for trips and holidays: My-tinerary! This app uses a Firebase backend to store a user's trips, and includes a chat feature to message your buddies on your trip. Trips can be individual or group.",
     image: '/images/1.png',
     tags: ['React', 'Firebase', 'Ionic'],
     source: 'https://google.com',

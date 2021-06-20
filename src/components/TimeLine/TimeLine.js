@@ -64,7 +64,8 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        My little journey from Financial Services to Software Development.
+        My little journey from Financial Services to Northcoders Grad to Junior Full Stack Developer! <br/>
+        Check out my Medium blog for more details on how I actually landed in the tech world.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

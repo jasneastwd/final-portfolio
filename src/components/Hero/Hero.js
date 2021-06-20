@@ -12,9 +12,10 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome to <br /> My Personal Portfolio
+        Welcome to <br /> my Personal Portfolio
       </SectionTitle>
       <SectionText>Junior Full Stack Developer</SectionText>
+     
       <Button
         onClick={() => {
           window.location = 'mailto:jse.94@me.com';
