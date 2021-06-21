@@ -1,8 +1,10 @@
 import React from 'react';
+
 import {
   AiFillGithub,
   AiFillMediumSquare,
   AiFillLinkedin,
+  AiFillUpCircle,
   AiFillTwitterCircle,
 } from 'react-icons/ai';
 
@@ -32,7 +34,11 @@ const Footer = () => {
         <CompanyContainer>
           <Slogan>created by jasneastwd</Slogan>
         </CompanyContainer>
+
         <SocialContainer>
+          <SocialIcons href="#">
+            <AiFillUpCircle size="3rem" />
+          </SocialIcons>
           <SocialIcons href="https://github.com/jasneastwd">
             <AiFillGithub size="3rem" />
           </SocialIcons>
