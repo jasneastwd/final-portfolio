@@ -2,37 +2,17 @@ export const projects = [
   {
     title: 'My-tinerary',
     description:
-      "Using Firebase and Ionic React, I created an itinerary app for trips and holidays: My-tinerary! This app uses a Firebase backend to store a user's trips, and includes a chat feature to message your buddies on your trip. Trips can be individual or group.",
+      "Built with Firebase and Ionic React, I created an itinerary app for trips and holidays: My-tinerary! This app uses a Firebase database to store a user's trips. Add your accommodation, travel and excursion plans, complete with checklist...",
     image: '/images/1.png',
     tags: ['React', 'Firebase', 'Ionic'],
-    source: 'https://google.com',
+    source: 'https://github.com/AJLud/My-tinerary.git',
     visit: 'https://google.com',
     id: 0,
   },
   {
-    title: 'API app',
-    description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 1,
-  },
-  {
-    title: 'Small Business Website',
-    description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    image: '/images/3.jpg',
-    tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 2,
-  },
-  {
     title: 'JE-News',
     description:
-      'This is my first full stack web app built using React and SQL. Users can post topics, articles, comments. Imagine Reddit, but a little stripped back.',
+      'My first full stack web app built using React and SQL. Users can post topics, articles, comments. Imagine Reddit, but a little stripped back. Maybe add an article, post some comments, create your own account, vote for some others...',
     image: '/images/4.jpg',
     tags: ['postgreSQL', 'Express', 'React', 'Node'],
     source: 'https://github.com/jasneastwd/JE-News',

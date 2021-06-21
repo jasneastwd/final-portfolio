@@ -15,6 +15,7 @@ import {
 } from './ProjectsStyles';
 import {
   Section,
+  SectionText,
   SectionDivider,
   SectionTitle,
 } from '../../styles/GlobalComponents';
@@ -24,6 +25,11 @@ const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
+    <SectionText>
+      I am currently adding to these projects which were built during my time at
+      Northcoders. <br />I am also building other projects to try out new
+      technologies.
+    </SectionText>
     <GridContainer>
       {projects.map(
         ({ id, image, title, description, tags, source, visit }) => (
@@ -35,6 +41,7 @@ const Projects = () => (
             </TitleContent>
             <CardInfo>{description}</CardInfo>
             <div>
+              <br />
               <TitleContent>Stack</TitleContent>
               <TagList>
                 {tags.map((tag, i) => (
@@ -44,11 +51,11 @@ const Projects = () => (
             </div>
             <UtilityList>
               <ExternalLinks href={visit}>Code</ExternalLinks>
-              <ExternalLinks href={visit}>Source</ExternalLinks>
+              {/* <ExternalLinks href={visit}>Source</ExternalLinks> */}
             </UtilityList>
           </BlogCard>
         ),
-      )}
+      )}{' '}
     </GridContainer>
   </Section>
 );
