@@ -30,13 +30,13 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'News Site',
+    title: 'JE-News',
     description:
-      'This is a full stack web app built using React and SQL. Users can post topics, articles, comments. This Reddit, but a little stripped back.',
+      'This is my first full stack web app built using React and SQL. Users can post topics, articles, comments. Imagine Reddit, but a little stripped back.',
     image: '/images/4.jpg',
     tags: ['postgreSQL', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/jasneastwd/JE-News',
+    visit: 'https://jasneastwd.github.io/JE-News',
     id: 3,
   },
 ];
