@@ -30,9 +30,9 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'News Website',
+    title: 'News Site',
     description:
-      'This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application',
+      'This is a full stack web app built using React and SQL. Users can post topics, articles, comments. This Reddit, but a little stripped back.',
     image: '/images/4.jpg',
     tags: ['postgreSQL', 'Express', 'React', 'Node'],
     source: 'https://google.com',
