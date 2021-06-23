@@ -17,7 +17,17 @@ export const projects = [
     tags: ['postgreSQL', 'Express', 'React', 'Node'],
     source: 'https://github.com/jasneastwd/JE-News',
     visit: 'https://jasneastwd.github.io/JE-News',
-    id: 3,
+    id: 1,
+  },
+  {
+    title: 'JE-Weather',
+    description:
+      'A small quick web app built in a couple of days pulling data from a third-party weather API. Search almost any city (or even some countries strangely) and find out the weather forecast over the next four days! Check out the dynamic background based on the weather...',
+    image: '/images/3.jpg',
+    tags: ['HTML', 'React', 'CSS', 'Javascript'],
+    source: 'https://github.com/jasneastwd/JE-News',
+    visit: 'https://weather.jasneastwd.vercel.app',
+    id: 2,
   },
 ];
 
