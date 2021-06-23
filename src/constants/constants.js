@@ -25,8 +25,8 @@ export const projects = [
       'A small quick web app built in a couple of days pulling data from a third-party weather API. Search almost any city (or even some countries strangely) and find out the weather forecast over the next four days! Check out the dynamic background based on the weather...',
     image: '/images/3.jpg',
     tags: ['HTML', 'React', 'CSS', 'Javascript'],
-    source: 'https://github.com/jasneastwd/JE-News',
-    visit: 'https://weather.jasneastwd.vercel.app',
+    source: 'https://weather.jasneastwd.vercel.app',
+    visit: '',
     id: 2,
   },
 ];
