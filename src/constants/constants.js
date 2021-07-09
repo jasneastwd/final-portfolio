@@ -6,7 +6,7 @@ export const projects = [
     image: '/images/1.png',
     tags: ['React', 'Firebase', 'Ionic'],
     source: 'https://github.com/AJLud/My-tinerary.git',
-    visit: 'https://google.com',
+    visit: 'https://youtu.be/9quoLdRMLRU',
     id: 0,
   },
   {
@@ -17,7 +17,7 @@ export const projects = [
     tags: ['postgreSQL', 'Express', 'React', 'Node'],
     source: 'https://github.com/jasneastwd/JE-News',
     visit: 'https://jasneastwd.github.io/JE-News',
-    id: 1,
+    id: 3,
   },
   {
     title: 'JE-Weather',
@@ -25,25 +25,41 @@ export const projects = [
       'A small quick web app built in a couple of days pulling data from a third-party weather API. Search almost any city (or even some countries strangely) and find out the weather forecast over the next four days! Check out the dynamic background based on the weather...',
     image: '/images/3.jpg',
     tags: ['HTML', 'React', 'CSS', 'Javascript'],
-    source: 'https://weather.jasneastwd.vercel.app',
-    visit: '',
+    source: 'https://github.com/jasneastwd/weather-app.git',
+    visit: 'https://weather.jasneastwd.vercel.app',
     id: 2,
+  },
+  {
+    title: 'JE-Cocktails',
+    description:
+      'A short project I built calling a RESTful API containing various cocktails. I really wanted to play around with CSS and get a feel for how to style cleanly and consistently. It is also handy next time you cannot decide what to drink...',
+    image: '/images/JE-Cocktails.png',
+    tags: ['HTML', 'React', 'CSS', 'Javascript'],
+    source: 'https://github.com/jasneastwd/weather-app.git',
+    visit: 'https://cocktails-jasneastwd.netlify.app/',
+    id: 1,
   },
 ];
 
 export const TimeLineData = [
   {
     year: 2016,
-    text: 'June - Graduated university and started my Financial Services career',
+    text: 'June 16 - Graduated university and started my Financial Services career',
   },
   {
     year: 2020,
-    text: 'August - Realised I need to change careers after Covid shut down the world',
+    text: 'August 20- Realised I need to change careers after Covid shut down the world',
   },
-  { year: 2020, text: 'October - Began coding in my spare time and loved it!' },
-  { year: 2021, text: 'March - I started the Northcoders bootcamp' },
+  {
+    year: 2020,
+    text: 'October 20 - Began coding in my spare time and loved it!',
+  },
   {
     year: 2021,
-    text: 'June - I completed the Northcoders bootcamp as a Junior Full Stack Developer',
+    text: 'March 20 - Started the Northcoders bootcamp, excited to learn',
+  },
+  {
+    year: 2021,
+    text: 'June 20 - Completed the Northcoders bootcamp as a Junior Full Stack Developer, began a bunch of new projects to continue learning',
   },
 ];

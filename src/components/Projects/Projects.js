@@ -22,7 +22,7 @@ import {
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
-  <Section nopadding id="projects">
+  <Section nopadding id='projects'>
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <SectionText>
@@ -51,7 +51,7 @@ const Projects = () => (
             </div>
             <UtilityList>
               <ExternalLinks href={visit}>Code</ExternalLinks>
-              {/* <ExternalLinks href={visit}>Source</ExternalLinks> */}
+              <ExternalLinks href={visit}>Source</ExternalLinks>
             </UtilityList>
           </BlogCard>
         ),
