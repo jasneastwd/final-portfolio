@@ -39,6 +39,16 @@ export const projects = [
     visit: 'https://cocktails-jasneastwd.netlify.app/',
     id: 1,
   },
+  {
+    title: 'JE-Quiz',
+    description:
+      'A 1 day project I built to experiment using Typescript whilst utilising a Quiz based API. I aimed to keep things simple with the design but try an alternate way of structuring my CSS whilst testing out Typescript...',
+    image: '/images/JE-Quiz.png',
+    tags: ['HTML', 'React', 'CSS', 'Typescript'],
+    source: 'https://github.com/jasneastwd/MiniQuiz.git',
+    visit: 'https://quiz-jasneastwd.netlify.app',
+    id: 4,
+  },
 ];
 
 export const TimeLineData = [

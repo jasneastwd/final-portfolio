@@ -15,7 +15,7 @@ import {
 } from './TechnologiesStyles';
 
 const Technologies = () => (
-  <Section id="tech">
+  <Section id='tech'>
     <SectionDivider />
     <br /> <br /> <br />
     <SectionTitle>Technologies</SectionTitle>
@@ -25,7 +25,7 @@ const Technologies = () => (
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="3rem" />
+        <DiReact size='3rem' />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
@@ -37,24 +37,24 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <DiFirebase size='3rem' />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            PostgreSQL, Node <br />
-            and Firebase
+            PostgreSQL, Node, <br />
+            WordPress and Firebase
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <DiFirebase size='3rem' />
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with tools <br />
             like Figma, MaterialUI, <br />
-            Ionic and Bulma
+            Ionic and jQuery
           </ListParagraph>
         </ListContainer>
       </ListItem>
